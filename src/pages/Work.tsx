@@ -20,8 +20,8 @@ const Work = () => {
             </>
           }
           items={[
-            'Built a web app to streamline uploading 5+ GB of investment memos to a chatbot\'s embeddings database.',
-            'Read a lot about OAuth 2.0, implemented API scopes, and worked with a bunch of different Microsoft Azure features.',
+            'Built a web app to streamline uploading 5+ GB of investment memos to an internal chatbot\'s embeddings database.',
+            'Read a lot about OAuth 2.0, implemented API scopes, and worked with a wide variety of pieces of Microsoft Azure.',
             'Developed a crippling addiction to caramel cold brew.',
           ]}
         />
@@ -36,7 +36,7 @@ const Work = () => {
           }
           items={[
             'Got very good at hacking up web scrapers to grab details from hotel databases using Selenium and BeautifulSoup.',
-            'Implemented an automated + real time phone-calling system, enabling outreach calls for anything the aforementioned web scrapers missed.',
+            'Implemented an automated and real time phone-calling system, enabling outreach calls for anything the aforementioned web scrapers missed.',
             'Learned how to communicate concisely and how to make mistakes.',
           ]}
         />
@@ -44,7 +44,7 @@ const Work = () => {
          <CollapsibleList
           title={
             <>
-              <a href="https://www.law.uchicago.edu/" target="_blank" className="blue-link"rel="noopener noreferrer">
+              <a href="https://blablablab.si.umich.edu/" target="_blank" className="blue-link"rel="noopener noreferrer">
                 The Blablablab
               </a>{' '}
                 {'—>'} Machine Learning Researcher
@@ -52,9 +52,9 @@ const Work = () => {
           }
           items={[
             'Training GMMs and other probabilistic models to interpret/explain the variety of writing styles across the internet.',
-            "Parallelized tagging across 10 GPUs to label 2+ TB of different texts with several linguistic embedding models.",
+            "Parallelized deep learning models across 10 GPUs to effeciently label 2+ TB of different texts with several linguistic embedding methods.",
             <>
-              Only crashed our server <s>once</s> twice (last updated Feb. 2025)
+              Only crashed our server once.
             </>,
           ]}
         />
@@ -70,10 +70,10 @@ const Work = () => {
           items={[
             'Used computer vision to systematically extract text from scanned PDFs.',
             "Fiddled with transformer models and RAG pipelines to dissect 50+ page opinions and draft up different styles of appellate case briefings.",
-            'Was constantly reminded ChatGPT is very pro-synonym, and that the legal industry decidedly is not.',
+            'Was constantly reminded that generative models are very pro-synonym, and that the legal industry decidedly is not.',
           ]}
         />
-        <h4>Teaching</h4>
+        <h4>Teaching [Assistantships]</h4>
         <>
         @ University of Michigan: <a href="https://eecs376.org/" target="_blank" className="blue-link"rel="noopener noreferrer">
                   CS Theory
@@ -81,7 +81,7 @@ const Work = () => {
         
         </>
 
-        <br />
+        <div style={{ marginBottom: '0.2rem' }}/>
         <>
         @ Columbia University: <a href="https://tonydear.com/teaching/coms4701" target="_blank" className="blue-link"rel="noopener noreferrer">
                   Artificial Intelligence

@@ -7,9 +7,13 @@
     font-family: 'Sans Serif', serif;
     background-color: #dce2e8;
     color:#30333a;
-    font-size: 18px;
+    font-size: 17px;
   }
 
+  a {
+    color: #30333a;
+    /* text-decoration: none; */
+  }
   a {
     color: #30333a;
     /* text-decoration: none; */
@@ -44,17 +48,17 @@
     flex-direction: column;
   }
   .dash-list {
-    list-style-type: none;
-    padding-left: 20px;
+    list-style-type: disc;
+    padding-left: 40px;
     margin-top: 4px;
   }
 
   .dash-list li {
-    margin-bottom: 4px;
+    margin-top: 4px;
   }
 
   .dash-list li::before {
-    content: '–'; /* En dash */
+    /* content: none; En dash */
     margin-right: 8px;
   }
   .arrow {

@@ -14,6 +14,7 @@ const Home = () => {
             <li><a href="/work" className="font-bold no-underline">[WORK I DO]</a></li>
             <li><a href="/projects" className="font-bold no-underline">[STUFF I MAKE]</a></li>
             <li><a href="/misc" className="font-bold text-green-600 no-underline">[OTHER THINGS]</a></li>
+            <li><a href="mailto:mjjiang@umich.edu" className="font-bold no-underline">[CONTACT ME]</a></li>
           </ul>
         </section>  
 

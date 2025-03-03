@@ -15,7 +15,7 @@ const CollapsibleList = ({ title, items }: CollapsibleListProps) => {
   };
 
   return (
-    <div>
+    <div style={{ marginBottom: '0.2rem' }}>
       <div onClick={toggleOpen} style={{ cursor: 'pointer' }}>
         {isOpen ? '∨' : '>'} {title}
       </div>
