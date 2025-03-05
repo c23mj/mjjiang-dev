@@ -1,14 +1,13 @@
 import React from 'react';
 import CollapsibleList from '../components/CollapsibleList';
-
+import Footer from '../components/Footer';
 const Work = () => {
   return (
     <div>
       <header>
         <h1>Work</h1>
-        {/* <p>I've had a lot of gigs over the years. Here's a (mostly) categorized list:</p> */}
       </header>
-      <section className="mt-6">
+      <section>
         <h4>Industry</h4>
         <CollapsibleList
           title={
@@ -88,73 +87,11 @@ const Work = () => {
               </a>, <a href="https://tonydear.com/teaching/coms3203" target="_blank" className="blue-link"rel="noopener noreferrer"> Discrete Math</a>
         
         </>
-        
-        {/* <CollapsibleList
-          title={
-            <>
-              <a href="https://www.umich.edu/" target="_blank" className="blue-link"rel="noopener noreferrer">
-                University of Michigan
-              </a>{' '}
-                {'—>'}  {' '}
-                <a href="https://eecs376.org/" target="_blank" className="blue-link"rel="noopener noreferrer">
-                  CS Theory
-              </a>{' '} TA
-            </>
-          }
-          items={[
-          ]}
-        />
-              <CollapsibleList
-          title={
-            <>
-              <a href="https://www.umich.edu/" target="_blank" className="blue-link"rel="noopener noreferrer">
-                University of Michigan
-              </a>{' '}
-                {'—>'}  {' '}
-                <a href="https://eecs376.org/" target="_blank" className="blue-link"rel="noopener noreferrer">
-                  Data Structures & Algorithms
-              </a>{' '} TA
-            </>
-          }
-          items={[
-          ]}
-        />
-        <CollapsibleList
-          title={
-            <>
-              <a href="https://www.columbia.edu/" target="_blank" className="blue-link"rel="noopener noreferrer">
-                Columbia University
-              </a>{' '}
-                {'—>'}  {' '}
-                <a href="https://tonydear.com/teaching/coms4701/" target="_blank" className="blue-link"rel="noopener noreferrer">
-                  Artificial Intelligence
-              </a>{' '} TA
-            </>
-          }
-          items={[
-          ]}
-        />
-        <CollapsibleList
-          title={
-            <>
-              <a href="https://www.columbia.edu/" target="_blank" className="blue-link"rel="noopener noreferrer">
-                Columbia University
-              </a>{' '}
-                {'—>'}  {' '}
-                <a href="https://tonydear.com/teaching/coms3203/" target="_blank" className="blue-link"rel="noopener noreferrer">
-                  Discrete Math
-              </a>{' '} TA
-            </>
-          }
-          items={[
-          ]}
-        /> */}
+    
       </section>
 
 
-      <footer className="mt-10 text-gray-600 text-sm">
-        <p>————</p>
-      </footer>
+      <Footer/>
     </div>
   );
 };

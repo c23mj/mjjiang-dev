@@ -1,12 +1,12 @@
 import CollapsibleList from "../components/CollapsibleList";
-
+import Footer from "../components/Footer";
 const Projects = () => {
   return (
     <div>
         <header>
           <h1> Projects</h1>
         </header>        
-        <section className="mt-6">
+        <section>
         <h4>In progress</h4>
         <CollapsibleList
           title={
@@ -31,7 +31,7 @@ const Projects = () => {
           }
           items={[ 
             <>
-            Attempting to use NLP (not LLMs) to solve the <a href="https://www.nytimes.com/games/connections" target="_blank" className="blue-link" rel="noopener noreferrer">New York Times Connections</a> as an exercise in computational linguistics. 
+            Attempting to use NLP (<span className="underline">not</span> LLMs) to solve the <a href="https://www.nytimes.com/games/connections" target="_blank" className="blue-link" rel="noopener noreferrer">New York Times Connections</a> as an exercise in computational linguistics. 
             </>,     
             <>
 Inspired by <a href="https://jeremybmerrill.com/blog/2024/08/this-algorithm-solves-nyt-connections.html" target="_blank" className="blue-link" rel="noopener noreferrer">a</a> <a href="https://web.stanford.edu/class/cs224n/final-reports/256847963.pdf" target="_blank" className="blue-link" rel="noopener noreferrer">lot</a> <a href="https://marshalljiang.com/my-not-so-successful-quest-to-conquer-the-nyt-connections-game-with-word2vec/" target="_blank" className="blue-link" rel="noopener noreferrer">of</a> <a href = "https://techxplore.com/news/2024-05-ai-ability-york-puzzle.html" target="_blank" className="blue-link" rel="noopener noreferrer">different</a> <a href="https://gist.github.com/jsundram/63138254a0a378e1706fd77c8bcdf8b4" target="_blank" className="blue-link" rel="noopener noreferrer">folks</a>.
@@ -103,7 +103,7 @@ Inspired by <a href="https://jeremybmerrill.com/blog/2024/08/this-algorithm-solv
             </>
           }
           items={[
-            "Developed a video CDN using socket programming in C++ which dynamically adjusts video quality (bitrate) based on network throughput",
+            "Developed a video CDN using socket programming in C++ which dynamically adjusts video quality (bitrate) based on network throughput.",
             "Implemented a DNS-based load balancer that distributes client-server connections both geographically and based on server load."
           ]}
         />
@@ -119,17 +119,14 @@ Inspired by <a href="https://jeremybmerrill.com/blog/2024/08/this-algorithm-solv
               Feed-forward neural network for arc-standard <a href="https://paperswithcode.com/task/dependency-parsing" target="_blank" className="blue-link" rel="noopener noreferrer">dependency parsing</a>
             </>,
             "Image caption generator using a CNN + huggingface transformer",
+            "Multithreaded network file server from scratch",
             "RISC-V assembler, simulator, linker",
             "Pipeline and cache simulator in C",
-            "Multithreaded network file server from scratch",
             "SQL-like relational database"
           ]}
         />
         </section>  
-
-        <footer className="mt-10 text-gray-600 text-sm">
-          <p>————</p>
-        </footer>
+        <Footer/>
     </div>
   );
 };

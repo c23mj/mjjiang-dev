@@ -2,10 +2,10 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import './style.css';
-// Import other pages as you create them
 import Projects from "./pages/Projects";
 import Work from "./pages/Work";
 import Misc from "./pages/Misc";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
