@@ -2,4 +2,4 @@ Here's the source code for my personal website. Feel free to clone/use it, or ge
 
 Will try my best to keep this updated, but no promises. Reach out to me at mjjiang@umich.edu.
 
-- MJ
+MJ
