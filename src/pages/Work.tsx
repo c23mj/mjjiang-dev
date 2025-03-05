@@ -1,4 +1,3 @@
-import React from 'react';
 import CollapsibleList from '../components/CollapsibleList';
 import Footer from '../components/Footer';
 const Work = () => {

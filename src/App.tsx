@@ -5,7 +5,6 @@ import './style.css';
 import Projects from "./pages/Projects";
 import Work from "./pages/Work";
 import Misc from "./pages/Misc";
-import Footer from "./components/Footer";
 
 const App = () => {
   return (

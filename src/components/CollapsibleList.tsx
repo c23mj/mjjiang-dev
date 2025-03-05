@@ -1,5 +1,5 @@
 // src/components/CollapsibleList.tsx
-import React, { useState, ReactNode } from 'react';
+import { useState, ReactNode } from 'react';
 import '../style.css';
 
 interface CollapsibleListProps {
