@@ -41,6 +41,16 @@
     margin-bottom: 0.5em;
   
   }
+  
+  /* Navbar responsive styles */
+  .navbar-left-column { 
+    width: 50%; 
+  }
+  
+  .navbar-right-column { 
+    width: 50%; 
+  }
+
   .page-container {
     width: 85%;  /* Default width for mobile */
     margin: 0 auto;
@@ -48,12 +58,23 @@
     flex-direction: column;
   }
 
-  /* Apply narrower width on desktop/landscape orientations */
-  @media (min-width: 700px) {
+  /* jank desktop styling */
+  @media (min-width: 950px) {
+    .navbar-left-column { 
+      width: 60%; 
+    }
+    
+    .navbar-right-column { 
+      width: 40%; 
+    }
+
     .page-container {
       width: 40%;
     }
   }
+
+
+  
   
   .dash-list {
     list-style-type: disc;
