@@ -1,4 +1,3 @@
-// src/components/CollapsibleList.tsx
 import { useState, ReactNode } from 'react';
 import '../style.css';
 

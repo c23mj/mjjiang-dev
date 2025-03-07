@@ -13,7 +13,6 @@ const App = () => {
       <main className="container mx-auto px-4 pt-16">
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* Add other routes as you create the pages */}
           <Route path="/projects" element={<Projects />} />
           <Route path="/work" element={<Work />} />
           <Route path="/misc" element={<Misc />} />

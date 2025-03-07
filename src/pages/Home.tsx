@@ -1,8 +1,6 @@
-// import Navbar from "../components/Navbar";
 const Home = () => {
   return (
     <div>
-        {/* <Navbar/> */}
         <header>
           <h1> Hey, I'm Michael.</h1>
           <p> I study computers, math, and complex systems at the University of Michigan. I spend a lot of time thinking about machine learning, infrastructure, and [perhaps too many] greek letters, but I'm always excited to fall down new rabbit holes, technical or otherwise. More broadly, I'm interested how technology can be applied to wholistically improve the human condition.</p>
@@ -20,7 +18,7 @@ const Home = () => {
 
         <footer>
           <p>————</p>
-          <p> Or, if you don't want to click on any of the links, enjoy a watercolor of my favorite street in New York.</p>
+          <p> Or, if you don't want to click on any of the links, enjoy a family friend's watercolor of my favorite street in New York.</p>
           <div className="flex justify-center">
             <img src="pell-street.png" alt="Pell Street"/>
           </div>

@@ -12,11 +12,9 @@
 
   a {
     color: #30333a;
-    /* text-decoration: none; */
   }
   a {
     color: #30333a;
-    /* text-decoration: none; */
   }
 
   a:hover {
@@ -52,7 +50,7 @@
   }
 
   .page-container {
-    width: 85%;  /* Default width for mobile */
+    width: 85%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -87,7 +85,6 @@
   }
 
   .dash-list li::before {
-    /* content: none; En dash */
     margin-right: 8px;
   }
   .arrow {
