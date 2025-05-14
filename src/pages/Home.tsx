@@ -18,10 +18,11 @@ const Home = () => {
 
         <footer>
           <p>————</p>
-          <p> Or, if you don't want to click on any of the links, enjoy a family friend's watercolor of my favorite street in New York.</p>
+          <p> Or, if you don't want to click on any of the links, here's a "recent" picture from my camera roll that I find cool (updated 5/2025):</p>
           <div className="flex justify-center">
-            <img src="pell-street.png" alt="Pell Street"/>
+            <img src="bryce.png" alt="bryce" style={{ width: '70%' }} />
           </div>
+
         </footer>
     </div>
   );
