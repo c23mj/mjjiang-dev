@@ -116,7 +116,7 @@ Inspired by <a href="https://jeremybmerrill.com/blog/2024/08/this-algorithm-solv
           }
           items={[
             <>
-              Feed-forward neural network for arc-standard <a href="https://paperswithcode.com/task/dependency-parsing" target="_blank" className="blue-link" rel="noopener noreferrer">dependency parsing</a>
+              Feed-forward neural network for arc-standard <a href="https://web.stanford.edu/~jurafsky/slp3/old_oct19/15.pdf" target="_blank" className="blue-link" rel="noopener noreferrer">dependency parsing</a>
             </>,
             "Image caption generator using a CNN + huggingface transformer",
             "Multithreaded network file server from scratch",

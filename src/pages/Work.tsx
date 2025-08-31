@@ -11,6 +11,21 @@ const Work = () => {
         <CollapsibleList
           title={
             <>
+              <a href="https://www.citadelsecurities.com/" target="_blank" className="blue-link"rel="noopener noreferrer">
+                Citadel Securities
+              </a>{' '}
+                {'—>'} Software Engineering Intern
+            </>
+          }
+          items={[
+            'Reptitively broke and fixed the firm\'s central app launcher (think process management, file operations, efficient checksumming, etc.)',
+            'Packaged a message bus, reduced re-renders, and generally messed with sockets + TCP for improved inter-process commmunication between GUIs.',
+            'Developed a love-hate relationship with multiprocessing, played several games of beach volleyball, and learned to love Cuban food.'
+          ]}
+        />
+        <CollapsibleList
+          title={
+            <>
               <a href="https://www.blueowl.com" target="_blank" className="blue-link"rel="noopener noreferrer">
                 Blue Owl Capital
               </a>{' '}
@@ -75,7 +90,7 @@ const Work = () => {
         <>
         @ University of Michigan: <a href="https://eecs376.org/" target="_blank" className="blue-link"rel="noopener noreferrer">
                   CS Theory
-              </a>, <a href="https://eecs281staff.github.io/eecs281.org/" target="_blank" className="blue-link"rel="noopener noreferrer"> Data Structures & Algorithms</a>
+              </a>, <a href="https://eecs388.org/" target="_blank" className="blue-link"rel="noopener noreferrer"> Computer Security </a>
         
         </>
 
