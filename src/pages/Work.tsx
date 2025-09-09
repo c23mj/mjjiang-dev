@@ -18,7 +18,7 @@ const Work = () => {
             </>
           }
           items={[
-            'Reptitively broke and fixed the firm\'s central app launcher (think process management, file operations, efficient checksumming, etc.)',
+            'Repetitively broke and fixed the firm\'s central app launcher (think process management, file operations, efficient checksumming, etc.)',
             'Packaged a message bus, reduced re-renders, and generally messed with sockets + TCP for improved inter-process commmunication between GUIs.',
             'Developed a love-hate relationship with multiprocessing, played several games of beach volleyball, and learned to love Cuban food.'
           ]}
