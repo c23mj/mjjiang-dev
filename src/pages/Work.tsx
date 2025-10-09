@@ -41,7 +41,7 @@ const Work = () => {
                 <CollapsibleList
           title={
             <>
-              <a href="https://www.getnowadays.com/" target="_blank" className="blue-link"rel="noopener noreferrer">
+              <a href="https://www.nowadays.ai/" target="_blank" className="blue-link"rel="noopener noreferrer">
                 Nowadays (YC S23)
               </a>{' '}
                 {'—>'} Software Engineering Intern
