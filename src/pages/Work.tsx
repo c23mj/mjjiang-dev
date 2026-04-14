@@ -11,6 +11,23 @@ const Work = () => {
         <CollapsibleList
           title={
             <>
+              <a href="https://ramp.com/" target="_blank" className="blue-link" rel="noopener noreferrer">
+                Ramp
+              </a>{' '}
+                {'—>'} Software Engineering Intern
+            </>
+          }
+          items={[
+            'Built a service out of Ramp\'s ML training playground to serve models from fully isolated snapshots of their training environments.',
+            'Fine-tuned a bunch of tiny components (garbage collection, TLS/TCP session acquisition, etc.) to maintain 99.9% uptime with <15ms added at p99.99.',
+            <>
+              Learned about (and subsequently became addicted to) <a href="https://bevi.co/blog/bevi-energy-boost-enhancement/" target="_blank" className="blue-link" rel="noopener noreferrer">caffeinated water</a>, and wrote a <a href="https://builders.ramp.com/post/so-what-is-ml-infra-anyways" target="_blank" className="blue-link" rel="noopener noreferrer">blog post</a>.
+            </>,
+          ]}
+        />
+        <CollapsibleList
+          title={
+            <>
               <a href="https://www.citadelsecurities.com/" target="_blank" className="blue-link" rel="noopener noreferrer">
                 Citadel Securities
               </a>{' '}
@@ -21,21 +38,6 @@ const Work = () => {
             'Repetitively broke and fixed the firm\'s central app launcher (think process management, file operations, efficient checksumming, etc.)',
             'Packaged a message bus, reduced re-renders, and generally messed with sockets + TCP for improved inter-process commmunication between GUIs.',
             'Developed a love-hate relationship with multiprocessing, played several games of beach volleyball, and learned to love Cuban food.'
-          ]}
-        />
-        <CollapsibleList
-          title={
-            <>
-              <a href="https://www.blueowl.com" target="_blank" className="blue-link" rel="noopener noreferrer">
-                Blue Owl Capital
-              </a>{' '}
-                {'—>'} Software Engineering Intern
-            </>
-          }
-          items={[
-            'Built a web app to streamline uploading 5+ GB of investment memos to an internal chatbot\'s embeddings database.',
-            'Read a lot about OAuth 2.0, implemented API scopes, and worked with a wide variety of pieces of Microsoft Azure.',
-            'Developed a crippling addiction to caramel cold brew.',
           ]}
         />
                 <CollapsibleList

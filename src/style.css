@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    font-family: "EB Garamond", Georgia, serif;
+    font-family: "Times New Roman", Times, serif;
     background-color: #dce2e8;
     color: #30333a;
     font-size: 17px;
@@ -50,7 +50,7 @@
   }
 
   .dash-list li {
-    margin-top: 4px;
+    margin-top: 8px;
   }
 
   .blue-link {
