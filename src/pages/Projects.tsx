@@ -11,7 +11,7 @@ const Projects = () => {
         <CollapsibleList
           title={
             <>
-              <a href="https://www.aiphabet.org/" target="_blank" className="blue-link"rel="noopener noreferrer">
+              <a href="https://www.aiphabet.org/" target="_blank" className="blue-link" rel="noopener noreferrer">
                 Aiphabet
               </a>{': '} a free, hands-on AI education for K-12 students
                 
@@ -34,7 +34,7 @@ const Projects = () => {
             Attempting to use NLP (<span className="underline">not</span> LLMs) to solve the <a href="https://www.nytimes.com/games/connections" target="_blank" className="blue-link" rel="noopener noreferrer">New York Times Connections</a> as an exercise in computational linguistics. 
             </>,     
             <>
-Inspired by <a href="https://jeremybmerrill.com/blog/2024/08/this-algorithm-solves-nyt-connections.html" target="_blank" className="blue-link" rel="noopener noreferrer">a</a> <a href="https://web.stanford.edu/class/cs224n/final-reports/256847963.pdf" target="_blank" className="blue-link" rel="noopener noreferrer">lot</a> <a href="https://marshalljiang.com/my-not-so-successful-quest-to-conquer-the-nyt-connections-game-with-word2vec/" target="_blank" className="blue-link" rel="noopener noreferrer">of</a> <a href = "https://techxplore.com/news/2024-05-ai-ability-york-puzzle.html" target="_blank" className="blue-link" rel="noopener noreferrer">different</a> <a href="https://gist.github.com/jsundram/63138254a0a378e1706fd77c8bcdf8b4" target="_blank" className="blue-link" rel="noopener noreferrer">folks</a>.
+Inspired by <a href="https://jeremybmerrill.com/blog/2024/08/this-algorithm-solves-nyt-connections.html" target="_blank" className="blue-link" rel="noopener noreferrer">a</a> <a href="https://web.stanford.edu/class/cs224n/final-reports/256847963.pdf" target="_blank" className="blue-link" rel="noopener noreferrer">lot</a> <a href="https://marshalljiang.com/my-not-so-successful-quest-to-conquer-the-nyt-connections-game-with-word2vec/" target="_blank" className="blue-link" rel="noopener noreferrer">of</a> <a href="https://techxplore.com/news/2024-05-ai-ability-york-puzzle.html" target="_blank" className="blue-link" rel="noopener noreferrer">different</a> <a href="https://gist.github.com/jsundram/63138254a0a378e1706fd77c8bcdf8b4" target="_blank" className="blue-link" rel="noopener noreferrer">folks</a>.
             </>
           ]}
 
@@ -61,7 +61,7 @@ Inspired by <a href="https://jeremybmerrill.com/blog/2024/08/this-algorithm-solv
         <CollapsibleList
           title={
             <>
-              <a href="https://www.formistudio.app/" target="_blank" className="blue-link"rel="noopener noreferrer">
+              <a href="https://www.formistudio.app/" target="_blank" className="blue-link" rel="noopener noreferrer">
                 Formi
               </a>{': '} a stage management app for creatives 
                 

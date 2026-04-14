@@ -4,21 +4,23 @@
 
 @layer base {
   html {
-    font-family: 'Sans Serif', serif;
+    font-family: "EB Garamond", Georgia, serif;
     background-color: #dce2e8;
-    color:#30333a;
+    color: #30333a;
     font-size: 17px;
   }
 
   a {
     color: #30333a;
   }
-  a {
-    color: #30333a;
-  }
 
   a:hover {
     color: #6b7280;
+  }
+
+  button {
+    color: inherit;
+    font: inherit;
   }
 
   p {
@@ -31,49 +33,16 @@
     font-weight: normal;
   }
 
-  h4{
+  h4 {
     color: #3a436d;
     font-size: 18px;
     font-weight: normal;
     font-style: italic;
     margin-bottom: 0.5em;
-  
   }
-  
-  /* Navbar responsive styles */
-  .navbar-left-column { 
-    width: 50%; 
-  }
-  
-  .navbar-right-column { 
-    width: 50%; 
-  }
+}
 
-  .page-container {
-    width: 85%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* jank desktop styling */
-  @media (min-width: 950px) {
-    .navbar-left-column { 
-      width: 60%; 
-    }
-    
-    .navbar-right-column { 
-      width: 40%; 
-    }
-
-    .page-container {
-      width: 40%;
-    }
-  }
-
-
-  
-  
+@layer components {
   .dash-list {
     list-style-type: disc;
     padding-left: 40px;
@@ -84,12 +53,6 @@
     margin-top: 4px;
   }
 
-  .dash-list li::before {
-    margin-right: 8px;
-  }
-  .arrow {
-    font-size: 15px;
-  }
   .blue-link {
     color: #0366d6;
     text-decoration: none;
@@ -99,4 +62,3 @@
     text-decoration: underline;
   }
 }
-

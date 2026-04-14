@@ -11,7 +11,7 @@ const Work = () => {
         <CollapsibleList
           title={
             <>
-              <a href="https://www.citadelsecurities.com/" target="_blank" className="blue-link"rel="noopener noreferrer">
+              <a href="https://www.citadelsecurities.com/" target="_blank" className="blue-link" rel="noopener noreferrer">
                 Citadel Securities
               </a>{' '}
                 {'—>'} Software Engineering Intern
@@ -26,7 +26,7 @@ const Work = () => {
         <CollapsibleList
           title={
             <>
-              <a href="https://www.blueowl.com" target="_blank" className="blue-link"rel="noopener noreferrer">
+              <a href="https://www.blueowl.com" target="_blank" className="blue-link" rel="noopener noreferrer">
                 Blue Owl Capital
               </a>{' '}
                 {'—>'} Software Engineering Intern
@@ -41,7 +41,7 @@ const Work = () => {
                 <CollapsibleList
           title={
             <>
-              <a href="https://www.nowadays.ai/" target="_blank" className="blue-link"rel="noopener noreferrer">
+              <a href="https://www.nowadays.ai/" target="_blank" className="blue-link" rel="noopener noreferrer">
                 Nowadays (YC S23)
               </a>{' '}
                 {'—>'} Software Engineering Intern
@@ -57,7 +57,7 @@ const Work = () => {
          <CollapsibleList
           title={
             <>
-              <a href="https://blablablab.si.umich.edu/" target="_blank" className="blue-link"rel="noopener noreferrer">
+              <a href="https://blablablab.si.umich.edu/" target="_blank" className="blue-link" rel="noopener noreferrer">
                 The Blablablab
               </a>{' '}
                 {'—>'} Machine Learning Researcher
@@ -74,7 +74,7 @@ const Work = () => {
          <CollapsibleList
           title={
             <>
-              <a href="https://www.law.uchicago.edu/" target="_blank" className="blue-link"rel="noopener noreferrer">
+              <a href="https://www.law.uchicago.edu/" target="_blank" className="blue-link" rel="noopener noreferrer">
                 University of Chicago Law
               </a>{' '}
                 {'—>'} Research Assistant
@@ -88,17 +88,17 @@ const Work = () => {
         />
         <h4>Teaching [Assistantships]</h4>
         <>
-        @ University of Michigan: <a href="https://eecs376.org/" target="_blank" className="blue-link"rel="noopener noreferrer">
+        @ University of Michigan: <a href="https://eecs376.org/" target="_blank" className="blue-link" rel="noopener noreferrer">
                   CS Theory
-              </a>, <a href="https://eecs388.org/" target="_blank" className="blue-link"rel="noopener noreferrer"> Computer Security </a>
+              </a>, <a href="https://eecs388.org/" target="_blank" className="blue-link" rel="noopener noreferrer"> Computer Security </a>
         
         </>
 
-        <div style={{ marginBottom: '0.2rem' }}/>
+        <div className="mb-[0.2rem]"/>
         <>
-        @ Columbia University: <a href="https://tonydear.com/teaching/coms4701" target="_blank" className="blue-link"rel="noopener noreferrer">
+        @ Columbia University: <a href="https://tonydear.com/teaching/coms4701" target="_blank" className="blue-link" rel="noopener noreferrer">
                   Artificial Intelligence
-              </a>, <a href="https://tonydear.com/teaching/coms3203" target="_blank" className="blue-link"rel="noopener noreferrer"> Discrete Math</a>
+              </a>, <a href="https://tonydear.com/teaching/coms3203" target="_blank" className="blue-link" rel="noopener noreferrer"> Discrete Math</a>
         
         </>
     
