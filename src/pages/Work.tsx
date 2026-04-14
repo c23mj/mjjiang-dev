@@ -18,7 +18,7 @@ const Work = () => {
             </>
           }
           items={[
-            'Built a service out of Ramp\'s ML training playground to serve models from fully isolated snapshots of their training environments.',
+            'Built a service out of Ramp\'s ML playground to serve models from fully isolated snapshots of their training environments.',
             'Fine-tuned a bunch of tiny components (garbage collection, TLS/TCP session acquisition, etc.) to maintain 99.9% uptime with <15ms added at p99.99.',
             <>
               Learned about (and subsequently became addicted to) <a href="https://bevi.co/blog/bevi-energy-boost-enhancement/" target="_blank" className="blue-link" rel="noopener noreferrer">caffeinated water</a>, and wrote a <a href="https://builders.ramp.com/post/so-what-is-ml-infra-anyways" target="_blank" className="blue-link" rel="noopener noreferrer">blog post</a>.
