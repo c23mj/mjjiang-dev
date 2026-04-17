@@ -14,7 +14,7 @@ const Work = () => {
               <a href="https://ramp.com/" target="_blank" className="blue-link" rel="noopener noreferrer">
                 Ramp
               </a>{' '}
-                {'—>'} Software Engineering Intern
+                {'→'} Software Engineering Intern
             </>
           }
           items={[
@@ -31,7 +31,7 @@ const Work = () => {
               <a href="https://www.citadelsecurities.com/" target="_blank" className="blue-link" rel="noopener noreferrer">
                 Citadel Securities
               </a>{' '}
-                {'—>'} Software Engineering Intern
+                {'→'} Software Engineering Intern
             </>
           }
           items={[
@@ -46,7 +46,7 @@ const Work = () => {
               <a href="https://www.nowadays.ai/" target="_blank" className="blue-link" rel="noopener noreferrer">
                 Nowadays (YC S23)
               </a>{' '}
-                {'—>'} Software Engineering Intern
+                {'→'} Software Engineering Intern
             </>
           }
           items={[
@@ -62,7 +62,7 @@ const Work = () => {
               <a href="https://blablablab.si.umich.edu/" target="_blank" className="blue-link" rel="noopener noreferrer">
                 The Blablablab
               </a>{' '}
-                {'—>'} Machine Learning Researcher
+                {'→'} Machine Learning Researcher
             </>
           }
           items={[
@@ -79,7 +79,7 @@ const Work = () => {
               <a href="https://www.law.uchicago.edu/" target="_blank" className="blue-link" rel="noopener noreferrer">
                 University of Chicago Law
               </a>{' '}
-                {'—>'} Research Assistant
+                {'→'} Research Assistant
             </>
           }
           items={[
