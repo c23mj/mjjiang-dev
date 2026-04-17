@@ -20,9 +20,9 @@ const Home = () => {
 
         <footer>
           <p>————</p>
-          <p> Or, if you don't want to click on any of the links, here's a "recent" picture from my camera roll that I find cool (updated 5/2025):</p>
+          <p> Or, if you don't want to click on any of the links, here's a "recent" picture from my camera roll that I find cool (updated 4/2026):</p>
           <div className="flex justify-center">
-            <img src="bryce.jpg" alt="bryce" className="w-[70%]" loading="lazy" decoding="async" />
+            <img src="joshua_tree.jpg" alt="joshua tree" className="w-[70%]" loading="lazy" decoding="async" />
           </div>
 
         </footer>
